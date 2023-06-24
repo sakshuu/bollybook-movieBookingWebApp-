@@ -1,0 +1,113 @@
+/* usernavbar */
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1); 
+}
+.search input{
+     height: 45px;
+     width: 70vmin;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+     /* margin-right: 350px; */
+}
+.search input:focus{
+box-shadow: none;
+border: 2px solid white;
+}
+
+    .search .bi-search{
+     position: absolute;
+     top: 10px;
+     left: 16px;
+     color: black;
+
+    }
+
+    .search button{
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     background: black;
+     
+
+    }
+    .container-fluid{
+        margin-left: 60px;
+    }
+
+
+    /* Carousel */
+    #swiper{
+        height: 50vh;
+        width: 100%;
+    }
+.slide{
+    margin: 6px;
+}
+
+/* movieShow */
+.row{
+    margin: 3%;
+}
+.poster{
+    margin-bottom: 3%;
+}
+.adjust{
+    height: 65vmin;
+    width: 35vmin;
+}
+
+.dark-link {
+    text-decoration:  none;
+    color: white;
+}
+
+
+/* footer */
+
+.footer{
+    margin-top: 10px;
+    padding: 35px;
+    background-color: lightgrey;
+}
+.content{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.footer-logo{
+margin-top: 20px;
+  text-align: center;
+}
+/* .footer-img{
+    display: flex;
+    justify-content: center;
+} */
+
+.youTube{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 3%;
+    gap: 26px;
+/* margin: 10%; */
+    /* align-items: center; */
+}
+.back{
+    margin-right: 2%;
+}
+
+
+
+
+

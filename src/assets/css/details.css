@@ -1,0 +1,147 @@
+/* movie details */
+
+.main{
+  position: relative;
+}
+.middle{
+  position: absolute;
+}
+.moviedetails{
+  display: flex;
+  align-items: flex-start;
+  margin:5%;
+}
+
+.cinemas-footer{
+   font-size: 12px;
+  text-align: center;
+  margin: 0px; 
+  background-color: black;
+  color: azure;
+  margin: 0px;
+}
+ .left-side{
+      padding-left: 14%;
+      padding-top: 4%;
+}
+.img-card{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+.file-name{
+  padding: 20px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+.language-d{
+  /* font-size: 16px; */
+  padding: 10px;
+  background-color:#D3D3D3;
+  width: 7vmin;
+}
+.language{
+  /* font-size: 16px; */
+  padding: 10px;
+  width: 29vmin;
+  background-color:#D3D3D3;
+}
+.right-side{
+padding-top: 60px;
+}
+.bullet{
+  list-style-type: circle;
+}
+.tickets-btn{
+  /* padding: 10px; */
+  /* padding-left: 3px; */
+  /* padding-right: 3px; */
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+
+
+
+/* comments */
+.first-section{
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.headline{
+  text-align: center;
+  color: red;
+}
+.headline-sec{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.comments{
+  padding: 20px;
+  margin: 10px;
+background-color: whitesmoke;
+}
+.section{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+#circul{
+  border-radius: 50%;
+  width:65px;
+  height: 65px;
+}
+.rate{
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 10px;
+
+}
+
+
+
+/* swiper */
+.swiper {
+	width: 100%;
+	margin-top: 20px;
+	padding: 0px;
+  margin: 0px;
+	height: 75vmin;
+  }
+  .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 250px;
+  }
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+  }
+  .footer-swiper{
+	margin-top: 10px;
+  }
+  .card{
+	background-color: aliceblue;
+	padding: 0px;
+  }
+  .swiper-footer{
+	padding: 6px;
+  }
+@media (min-device-height: 200px) {
+	.swiper  {
+	  height: 85%;
+	}
+  }
+  
